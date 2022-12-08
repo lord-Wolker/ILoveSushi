@@ -3,28 +3,22 @@
     padding-bottom: 20vh;
 }
 
-.video-right{
-    height: 350px;
-    background: linear-gradient(rgba(0,0,0,0.78),rgba(0,0,0,0.78)),
-    url(/img/video-bg.png) no-repeat center;
-    background-size: cover;
-}
-
 .py-7{
     padding: 7rem 0;
 }
 
-#calkule{
-    background-color: #f9f9ff;
-}
-
-#team,#zadahi{
+#team,#zadahi,#calkule{
     background-color: black;
 }
 
 .courses .lnr{
-    color: #235ee2;
+    color: white;
     font-size: 30px;
+}
+
+footer{
+    background-color: black;
+    font-family: "Bradley Hand", cursive;
 }
 
 .live-btn :hover{
@@ -37,4 +31,8 @@ h1,h2,h5{
 
 .info{
     text-align: justify;
+}
+
+.contacts,.info,.part{
+    margin-bottom: 70px;
 }
