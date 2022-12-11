@@ -10,30 +10,31 @@ wow = new WOW(
   wow.init();
 
 $(document).ready(function(){
-  let domain={
+   let domain={
     "Выберите домен": 0,
-    "domain.github.io":0,
-    "domain.ru":300,
-    "domain.org":400,
-    "domain.com":500,
-    "domain.eco":1000
+    "ilovesushi.github.io":0,
+    "IlovesushiPlus.ru":190,
+    "ilovesushi.press":349,
+    "ilovesushi.pro":599,
+    "IlovesushiLife.ru.com":7020
     };
 
     let host={
     "Выберите хостинг": 0,
     "Github":0,
-    "Beget":300,
-    "Hostinger":400
+    "Start":390,
+    "Noble":580
     };
 
     let admin={
       "Выберите тариф": 0,
-      "Минимум":1200,
-      "базовый":3500,
-      "Стандарт":5700,
-      "Оптимальный":15300,
-      "Максимальный":40700
-    };
+      "Технический":3000,
+      "Стартовый":3400,
+      "Базовый":7500,
+      "Оптимальный":13500,
+      "Бизнес":18000,
+      "Бизнес+":22000
+       };
 
     domainFillSelect();
     hostFillSelect();
