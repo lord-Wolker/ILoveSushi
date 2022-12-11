@@ -178,12 +178,28 @@
         <div class="text-center">
             <h2 class="display-5 fw-bold py-7 text-white wow animate__pulse">Наша команда</h2>
         </div>
-        <div class="row">
-            <div class="col-12 col-lg-6 text-center p-5">
-                <img src="img/PFfcJpfpfog.jpg" class="rounded img-thumbnail wow animate__rubberBand" alt="">
+       <div class="row text-center text-white">
+            <div class="col-12 col-lg-6">
+               <div class="contacts wow animate__rubberBand">
+                  <img src="img/PFfcJpfpfog.jpg" class="rounded img-thumbnail" alt="">
+                  <div>
+                    <h3>Максим Мажан</h3>
+                  </div>
+                 <div>
+                    <p>Тимлидер, программист, дизайнер</p>
+                 </div>
+               </div>
             </div>
-            <div class="col-12 col-lg-6 text-center p-5">
-                <img src="img/xPUdwo7wOis.jpg" class="rounded img-thumbnail wow animate__rubberBand" alt="">
+            <div class="col-12 col-lg-6">
+                <div class="contacts wow animate__rubberBand">
+                  <img src="img/xPUdwo7wOis.jpg" class="rounded img-thumbnail" alt="">
+                  <div>
+                    <h3>Екатерина Кравцова</h3>
+                  </div>
+                  <div>
+                    <p>Дизайнер, копирайтер</p>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
@@ -216,33 +232,30 @@
   </section>
 
 <section id="calkule" class="text-center">
-    <div class="container">
-        <h2 class="display-5 fw-bold py-7 text-white">Расчет затрат на содержание проекта</h2>
-        <div class="row p-5">
-            
-            <div class="col-12 col-md-6 calk">
-                <p class="fw-bold text-white">Стоимость Домена</p>
-                <select id="d" class="form-select" aria-label="Default select example">
-                    
-                  </select>
-                  <p class="fw-bold pt-3 text-white">Стоимость хостинга</p>
-                <select id="h" class="form-select" aria-label="Default select example">
-                   
-                </select>
-                  <p class="fw-bold pt-3 text-white">Стоимость тарифа</p>
-                <select id="a" class="form-select" aria-label="Default select example">
-                    
-                </select>
-            </div>
-            <div class="col-12 col-md-6 d-flex flex-column justify-content-center text-white">
-                <h3>Итого: <span id="itogo">0</span> pyб./месяц, из них</h3>
-                <p>Домен: <span id="domen"></span></p>
-                <p>Хостинг: <span id="host"></span></p>
-                <p>Поддержка: <span id="admin"></span></p>
-              </div>
-        </div>
+  <div class="container">
+    <div>
+      <h2 class="display-5 fw-bold py-7 text-white">Расчет затрат на содержание проекта</h2>
     </div>
+    <div class="row">
+      <div class="col-12 col-md-6 calk p-5">
+        <p class="fw-bold text-white">Стоимость Домена</p>
+            <select id="d" class="form-select rounded img-thumbnail" aria-label="Default select example"></select>
+        <p class="fw-bold pt-3 text-white">Стоимость хостинга</p>
+            <select id="h" class="form-select" aria-label="Default select example"></select>
+        <p class="fw-bold pt-3 text-white">Стоимость тарифа</p>
+            <select id="a" class="form-select" aria-label="Default select example"></select>
+      </div>
+      <div class="col-12 col-md-6 d-flex flex-column justify-content-center text-white">
+        <h3>Итого: </h3>
+        <h3><span id="itogo" class="text-danger">0</span> pyб./месяц, из них</h3>
+          <p class="fw-bold">Домен: <span id="domen"></span></p>
+          <p class="fw-bold">Хостинг: <span id="host"></span></p>
+          <p class="fw-bold">Поддержка: <span id="admin"></span></p>
+      </div>
+    </div>
+  </div>
 </section>
+
 
 <footer >
   <div class="text-center text-white">
